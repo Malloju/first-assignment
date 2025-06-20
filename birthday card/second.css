@@ -1,0 +1,23 @@
+body{
+    background-color:#ebccff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top{
+    color: #333333;
+    text-align: center;
+    text-decoration: underline;
+    position: absolute;
+    top: 0px;
+}
+.rectangle{
+    height:400px;
+    width:300px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.info{
+    margin-left: 20px;
+}

@@ -1,0 +1,47 @@
+#birthday{
+    position: absolute;
+    color:#ff1a75;
+    text-align: center;
+    top: 10px;
+
+}
+body{
+    background-color:#ffe6f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle{
+    width: 400px;
+    height:500px;
+    background-color:#ff4da6;
+    margin-top: 1cm;
+    border-radius: 20px;
+}
+#name{
+    color:#ffffff;
+    text-align: center;
+    top:10cm;
+    text-decoration: underline;
+    font-size: 50px;
+}
+img{
+    height:200;
+    width: 150;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+#content{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Pinyon Script", cursive;
+}
+#link{
+    margin-left: 170px;
+    margin-bottom: 30px;
+}
+#baby{
+    text-align: center;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>College Timetable</title>
+  <style>
+    body {
+      background-color: #b3f0f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: #d9f5ff;
+      margin: 0;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      color: #222;
+    }
+
+    table {
+      width: 95%;
+      max-width: 1000px;
+      margin: 30px auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 15px;
+      text-align: center;
+    }
+
+    thead th {
+      background-color: #aef1f9;
+    }
+
+    td.time {
+      background-color: #d38ec3;
+      font-weight: bold;
+    }
+
+    td.lunch {
+      background-color: #ffe3a1;
+      font-weight: bold;
+      color: #444;
+    }
+
+    td, th {
+      background-color: #f7f7f7;
+    }
+
+    tbody tr:hover td {
+      background-color: #e7f7ff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>College Timetable</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="time">9:00–10:00</td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td class="time">10:00–11:00</td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td class="time">11:00–12:00</td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td class="time">12:00–1:00</td>
+        <td colspan="6" class="lunch">LUNCH BREAK</td>
+      </tr>
+      <tr>
+        <td class="time">1:00–2:00</td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td class="time">2:00–3:00</td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td class="time">3:00–4:00</td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
